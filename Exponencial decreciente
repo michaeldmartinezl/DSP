@@ -1,0 +1,8 @@
+t = 0:0.001:10;
+exp_decreciente = exp(-4 * t);  
+figure(5);
+plot(t, exp_decreciente);
+title('Función Exponencial Decreciente (exp(-4*t))');
+xlabel('Tiempo (s)');
+ylabel('Amplitud');
+grid on;
