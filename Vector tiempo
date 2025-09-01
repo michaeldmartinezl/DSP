@@ -1,0 +1,6 @@
+(Vector tiempo)
+% Vector de tiempo: de 0 a 10 segundos, resolución de 1 ms (0.001 s)
+t = 0:0.001:10;
+% numero de muestras
+N = length(t);
+disp(['Numero de muestras: ', num2str(N)]);
