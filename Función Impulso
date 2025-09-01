@@ -1,0 +1,9 @@
+t = 0:0.001:10;
+impulso = (t == 0);  % Lógico: true (1) solo cuando t=0
+% Gráfica del impulso
+figure(1);
+plot(t, impulso);
+title('Función Impulso');
+xlabel('Tiempo (s)');
+ylabel('Amplitud');
+grid on;
