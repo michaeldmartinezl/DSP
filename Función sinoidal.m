@@ -1,3 +1,4 @@
+%Trabajo en grupo compañero
 t = 0:0.001:10;
 sinoidal = 2 * sin(2 * pi * 3 * t);
 figure(3);
