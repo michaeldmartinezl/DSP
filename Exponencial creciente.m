@@ -1,3 +1,4 @@
+%Primer punto taller 
 t = 0:0.001:10;
 exp_creciente = exp(2 * t);  
 figure(4);
